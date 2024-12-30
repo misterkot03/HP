@@ -1,0 +1,130 @@
+{
+  "compressionlevel": -1,
+  "height": 4,
+  "infinite": false,
+  "layers": [
+    {
+      "data": [
+        1,1,1,1,1,1,1,1,1,1,
+        1,1,1,1,1,1,1,1,1,1,
+        1,1,1,1,1,1,1,1,1,1,
+        1,1,1,1,1,1,1,1,1,1,
+        1,1,1,1,1,1,1,1,1,1,
+        1,1,1,1,1,1,1,1,1,1,
+        1,1,1,1,1,1,1,1,1,1,
+        1,1,1,1,1,1,1,1,1,1
+      ],
+      "height": 4,
+      "id": 1,
+      "name": "Background",
+      "opacity": 1,
+      "type": "tilelayer",
+      "visible": true,
+      "width": 20,
+      "x": 0,
+      "y": 0
+    },
+    {
+      "data": [
+        0,0,0,0,0,0,0,0,0,0, 0,0,0,0,0,0,0,0,0,0,
+
+        3,0,0,0,0,0,0,0,0,0, 0,0,0,0,0,0,0,0,3,0,
+
+        0,0,0,0,0,4,0,0,0,0, 0,4,0,0,0,0,0,4,0,0,
+
+        2,2,2,2,2,2,2,2,2,2, 2,2,2,2,2,2,2,2,2,2
+      ],
+      "height": 4,
+      "id": 2,
+      "name": "Ground",
+      "opacity": 1,
+      "type": "tilelayer",
+      "visible": true,
+      "width": 20,
+      "x": 0,
+      "y": 0
+    }
+  ],
+  "nextlayerid": 3,
+  "nextobjectid": 1,
+  "orientation": "orthogonal",
+  "renderorder": "right-down",
+  "tiledversion": "1.8.2",
+  "tileheight": 128,
+  "tilewidth": 128,
+  "type": "map",
+  "version": "1.4",
+  "width": 20,
+  "tilesets": [
+    {
+      "firstgid": 1,
+      "image": "floor.png",
+      "imageheight": 128,
+      "imagewidth": 128,
+      "margin": 0,
+      "name": "floor",
+      "spacing": 0,
+      "tilecount": 1,
+      "tileheight": 128,
+      "tilewidth": 128,
+      "type": "tileset",
+      "version": "1.4"
+    },
+    {
+      "firstgid": 2,
+      "image": "top.png",
+      "imageheight": 128,
+      "imagewidth": 128,
+      "margin": 0,
+      "name": "top",
+      "spacing": 0,
+      "tilecount": 1,
+      "tileheight": 128,
+      "tilewidth": 128,
+      "type": "tileset",
+      "version": "1.4",
+      "tiles": {
+        "0": {
+          "properties": [
+            { "name": "collides", "type": "bool", "value": true }
+          ]
+        }
+      }
+    },
+    {
+      "firstgid": 3,
+      "image": "door.png",
+      "imageheight": 256,
+      "imagewidth": 256,
+      "margin": 0,
+      "name": "door",
+      "spacing": 0,
+      "tilecount": 1,
+      "tileheight": 256,
+      "tilewidth": 256,
+      "type": "tileset",
+      "version": "1.4",
+      "tiles": {
+        "0": {
+          "properties": [
+            { "name": "collides", "type": "bool", "value": false }
+          ]
+        }
+      }
+    },
+    {
+      "firstgid": 4,
+      "image": "flag.png",
+      "imageheight": 128,
+      "imagewidth": 128,
+      "margin": 0,
+      "name": "flag",
+      "spacing": 0,
+      "tilecount": 1,
+      "tileheight": 128,
+      "tilewidth": 128,
+      "type": "tileset",
+      "version": "1.4"
+    }
+  ]
+}
